@@ -1,0 +1,29 @@
+.positionInputButton {
+  display: flex;
+  flex: 1;
+
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.positionInputButton input,
+.positionInputButton button {
+  transform: translateY(-50%);
+}
+
+.bodyPosition {
+  display: flex;
+  justify-content: center;
+}
+
+.TasksPosition {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.TasksPosition,
+.TasksPosition {
+  gap: 0.75rem;
+}

@@ -1,0 +1,31 @@
+.headerBody {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.5rem;
+}
+
+.headerBody aside {
+  display: flex;
+  gap: 0.5rem;
+
+  font-weight: bold;
+}
+
+.headerBody aside:first-child {
+  color: var(--blue);
+}
+
+.headerBody aside:last-child {
+  color: var(--purple);
+}
+
+.headerBody aside p {
+  font-size: 0.875rem;
+}
+
+.headerBody aside span {
+  padding: 0px 8px;
+  border-radius: 16px;
+
+  background-color: var(--gray-400);
+}

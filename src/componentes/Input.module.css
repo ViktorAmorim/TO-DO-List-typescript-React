@@ -1,0 +1,9 @@
+.Input {
+  width: 28.188rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  border: solid 1px var(--gray-700);
+  padding: 1rem;
+  background: var(--gray-500);
+  color: var(--gray-100);
+}
